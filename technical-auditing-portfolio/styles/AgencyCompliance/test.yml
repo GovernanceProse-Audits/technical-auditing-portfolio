@@ -1,0 +1,8 @@
+extends: substitution
+message: "In professional whitepapers, use '%s' instead of '%s'."
+level: warning
+ignorecase: true
+swap:
+  utilize: use
+  leverage: use
+  impactful: effective

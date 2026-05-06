@@ -1,0 +1,8 @@
+extends: substitution
+message: "Strategic writing tip: Avoid '%s' and use more specific technical language."
+level: suggestion
+ignorecase: true
+swap:
+  synergy: collaboration
+  thought leader: expert
+  game changer: innovation

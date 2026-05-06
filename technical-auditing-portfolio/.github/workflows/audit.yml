@@ -1,0 +1,8 @@
+name: Client Compliance Audit
+on: [push, pull_request]
+
+jobs:
+  run-audit:
+    # This calls your proprietary master engine
+    uses: GovernanceProse-Audits/governance-standards/.github/workflows/shared-audit.yml@main
+    secrets: inherit
