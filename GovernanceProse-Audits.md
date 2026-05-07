@@ -1,0 +1,2 @@
+{ "folders": \[ { "path": "." }, { "path": "../governance-standards" }
+\], "settings": {} }
