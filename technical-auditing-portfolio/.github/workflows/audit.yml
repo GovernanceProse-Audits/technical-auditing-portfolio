@@ -3,6 +3,7 @@ on: [push, pull_request]
 
 jobs:
   run-audit:
-    uses: ./.github/workflows/shared-audit.yml
+    uses: GovernanceProse-Audits/technical-auditing-portfolio/.github/workflows/shared-audit.yml@main
     secrets: inherit
+
 
