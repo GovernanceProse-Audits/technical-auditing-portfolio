@@ -1,0 +1,15 @@
+name: Master Compliance Audit
+on:
+  workflow_call:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Run Proprietary Vale Audit
+        uses: errata-ai/vale-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
