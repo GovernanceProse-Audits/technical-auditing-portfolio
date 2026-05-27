@@ -1,9 +1,0 @@
-name: Client Compliance Audit
-on: [push, pull_request]
-
-jobs:
-  run-audit:
-    uses: GovernanceProse-Audits/technical-auditing-portfolio/.github/workflows/shared-audit.yml@main
-    secrets: inherit
-
-

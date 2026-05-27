@@ -1,0 +1,10 @@
+extends: existence
+message: "EU AI Act Compliance (Art. 50): '%s' is too ambiguous for transparency obligations. Explicitly state HOW the system notifies users they are interacting with AI."
+level: error
+tokens:
+  - should notify the user
+  - will try to disclose
+  - users may be aware
+  - implicit disclosure
+  - intended to inform
+  - can be made transparent
